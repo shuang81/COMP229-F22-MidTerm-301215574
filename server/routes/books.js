@@ -1,7 +1,7 @@
 // modules required for routing
 import { Router } from "express";
 
-import { displayAddPage, displayBookList, displayEditPage, processAddPage, processDelete, processEditPage } from "../controllers/books.js";
+import { displayBookList, displayAddPage, processAddPage, displayEditPage, processEditPage, processDelete} from "../controllers/books.js";
 
 const router = Router();
 
@@ -10,6 +10,7 @@ router.get('/books/list', displayBookList);
 
 //  GET the Book Details page in order to add a new Book
 router.get('/books/add', displayAddPage);
+
 // POST process the Book Details page and create a new Book - CREATE
 router.post('/books/add', processAddPage);
 
