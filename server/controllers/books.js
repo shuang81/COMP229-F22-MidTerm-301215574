@@ -1,4 +1,6 @@
-
+// COMP 229 - Fall 2022 - Web Application Development - Midterm Practical Test
+// Name: Huang Sheng Wen
+// Student ID: 301215574
 
 // define the book model
 import booksModel from '../models/books.js';
