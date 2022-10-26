@@ -9,6 +9,7 @@ Student ID: 301215574
             <h1>
                 <%= title %>
             </h1>
+            <!-- Add book function fixed, and direct to add book page -->
             <a href="./add" class="btn btn-primary" role="button">
                 <i class="fas fa-plus-circle"></i> Add a Book</a>
             <br>
@@ -43,6 +44,7 @@ Student ID: 301215574
                         <td class="text-center col-1">
                             <%= books[count].price %>
                         </td>
+                        <!-- Add edit button and delete button, and when each one of them are clicked, it will direct to the right page -->
                         <td class="text-center col-1">
                             <a href="/books/edit/<%= books[count]._id %>"
                                 class="btn btn-primary btn-sm">
